@@ -1,3 +1,10 @@
-h3 {
-    color:mediumvioletred;
-}
+body {font-size: 18px;}
+header, footer {background-color:greenyellow;}
+.site-title, .site-two {color:coral;}
+#my-image {box-shadow: 0 0 2px 1px black;}
+ul li{list-style-type: square;}
+.hobbies-list li:nth-child(odd) {background-color:lightpink;}
+a {text-decoration: none;
+   background-color:lightblue;
+   border: 1px solid slateblue;}
+a:hover {background-color:mediumspringgreen;}
