@@ -1,177 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final Project</title>
-    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    >
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    >
   </head>
   <body>
     <header>
-      <img src="images/logo.png" alt="Logo" />
-      <ul>
-        <li>Home</li>
-        <li>About Us</li>
-        <li>Services</li>
-        <li>Team</li>
-        <li>Contact</li>
-      </ul>
-      <input type="text" placeholder="Search.." />
+      <nav>
+        <div class="three-stars">
+          <img src="images/logo.png" alt="Logo">
+        </div>
+
+        <div class="navbar">
+          <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="search-bar">
+          <input type="text" placeholder="Search">
+          <span class="material-symbols-outlined"> search </span>
+        </div>
+      </nav>
     </header>
-    <img src="images/main-banner.jpg" alt="Workspace" />
-    <h1>Welcome to Three Star Media</h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum!
-    </p>
-    <button type="button">Connect with us &#9654;</button>
-    <br />
-    <img src="images/about-us.jpg" alt="Lounge Area" />
-    <h2>About Us</h2>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Semper feugiat nibh
-      sed pulvinar proin. Lectus urna duis convallis convallis tellus id
-      interdum velit laoreet. Cras tincidunt lobortis feugiat vivamus at augue
-      eget arcu dictum?
-      <br />
-      Praesent tristique magna sit amet purus gravida. Pellentesque habitant
-      morbi tristique senectus et netus. Libero justo laoreet sit amet. Sed
-      vulputate mi sit amet. Quisque id diam vel quam. Posuere ac ut consequat
-      semper viverra nam libero justo laoreet.
-    </p>
-    <h2>Our Services</h2>
-    <container class="Plans">
-    <img src="images/digital.jpg" alt="Working" />
-    <h3>Digital Transformation</h3>
-    <p>
-      Lorem ipsum dolor sit amet, nulla aliquet enim tortor at auctor urna nunc
-      id cursus. Arcu non odio euismod lacinia. Senectus et netus et malesuada.
-      Mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum.
-      Quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus?
-    </p>
-    <button type="button">Digital Plans &#9654;</button>
-    <br />
-    <img src="images/marketing.jpg" alt="Laptop" />
-    <h3>Marketing</h3>
-    <p>
-      Lorem ipsum dolor sit amet, nulla aliquet enim tortor at auctor urna nunc
-      id cursus. Arcu non odio euismod lacinia. Senectus et netus et malesuada.
-      Mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum.
-      Quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus?
-    </p>
-    <button type="button">Marketing Plans &#9654;</button>
-    <br />
-    <img src="images/video.jpg" alt="Video" />
-    <h3>Video Production</h3>
-    <p>
-      Lorem ipsum dolor sit amet, nulla aliquet enim tortor at auctor urna nunc
-      id cursus. Arcu non odio euismod lacinia. Senectus et netus et malesuada.
-      Mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum.
-      Quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus?
-    </p>
-    <button type="button">Video Plans &#9654;</button>
-    <br />
-    <img src="images/web.jpg" alt="Web" />
-    <h3>Web Development</h3>
-    <p>
-      Lorem ipsum dolor sit amet, nulla aliquet enim tortor at auctor urna nunc
-      id cursus. Arcu non odio euismod lacinia. Senectus et netus et malesuada.
-      Mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum.
-      Quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus?
-    </p>
-    <button type="button">Web Plans &#9654;</button>
-    <br />
-    <img src="images/print.jpg" alt="Print" />
-    <h3>Print</h3>
-    <p>
-      Lorem ipsum dolor sit amet, nulla aliquet enim tortor at auctor urna nunc
-      id cursus. Arcu non odio euismod lacinia. Senectus et netus et malesuada.
-      Mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum.
-      Quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus?
-    </p>
-    <button type="button">Print Plans &#9654;</button>
-    <br />
-    <img src="images/vision.jpg" alt="Our Vision" />
-    <h3>Our Vision</h3>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Semper feugiat nibh
-      sed pulvinar proin. Lectus urna duis convallis convallis tellus id
-      interdum velit laoreet.
-    </p>
-    <button type="button">Learn More &#9654;</button>
-    </container>
+
+    <section class="welcome">
+      <img class="welcome-img" src="images/main-banner.jpg" alt="Workspace">
+      <div class="welcome-text">
+        <h1 class="three-media">Welcome to Three Star Media</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in.
+        </p>
+        <button type="button">Connect with us &#9654;</button>
+      </div>
+    </section>
+
+    <section class="about-all">
+      <div class="cont">
+        <div>
+          <img class="about" src="images/about-us.jpg" alt="Lounge Area">
+        </div>
+        <div>
+          <h2 class="us">About Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper
+            feugiat nibh sed pulvinar proin. Lectus urna duis convallis
+            convallis tellus id interdum velit laoreet. Cras tincidunt lobortis
+            feugiat vivamus at augue eget arcu dictum?
+            <br>
+            Praesent tristique magna sit amet purus gravida. Pellentesque
+            habitant morbi tristique senectus et netus. Libero justo laoreet sit
+            amet. Sed vulputate mi sit amet. Quisque id diam vel quam. Posuere
+            ac ut consequat semper viverra nam libero justo laoreet.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="our-services">
+    <h2 class="o-services">Our Services</h2>
+  </div>
+    <div class="plans">
+      <div class="gridS">
+        <div class="anotherdiv">
+          <div class="digital-transform">
+            <img src="images/digital.jpg" alt="Working">
+            <h3>Digital Transformation</h3>
+            <p>
+              Lorem ipsum dolor sit amet, nulla aliquet enim tortor at auctor
+              urna nunc id cursus. Arcu non odio euismod lacinia. Senectus et
+              netus et malesuada. Mi tempus imperdiet nulla malesuada
+              pellentesque elit eget gravida cum. Quam adipiscing vitae proin
+              sagittis nisl rhoncus mattis rhoncus?
+            </p>
+            <button type="button">Digital Plans &#9654;</button>
+          </div>
+
+          <div class="marketing">
+            <img src="images/marketing.jpg" alt="Laptop">
+            <h3>Marketing</h3>
+            <p>
+              Lorem ipsum dolor sit amet, nulla aliquet enim tortor at auctor
+              urna nunc id cursus. Arcu non odio euismod lacinia. Senectus et
+              netus et malesuada. Mi tempus imperdiet nulla malesuada
+              pellentesque elit eget gravida cum. Quam adipiscing vitae proin
+              sagittis nisl rhoncus mattis rhoncus?
+            </p>
+            <button type="button">Marketing Plans &#9654;</button>
+          </div>
+        </div>
+
+        <div class="adiv">
+          <div class="video">
+            <img src="images/video.jpg" alt="Video">
+            <h3>Video Production</h3>
+            <p>
+              Lorem ipsum dolor sit amet, nulla aliquet enim tortor at auctor
+              urna nunc id cursus. Arcu non odio euismod lacinia. Senectus et
+              netus et malesuada. Mi tempus imperdiet nulla malesuada
+              pellentesque elit eget gravida cum. Quam adipiscing vitae proin
+              sagittis nisl rhoncus mattis rhoncus?
+            </p>
+            <button type="button">Video Plans &#9654;</button>
+          </div>
+
+          <div class="web-dev">
+            <img src="images/web.jpg" alt="Web">
+            <h3>Web Development</h3>
+            <p>
+              Lorem ipsum dolor sit amet, nulla aliquet enim tortor at auctor
+              urna nunc id cursus. Arcu non odio euismod lacinia. Senectus et
+              netus et malesuada. Mi tempus imperdiet nulla malesuada
+              pellentesque elit eget gravida cum. Quam adipiscing vitae proin
+              sagittis nisl rhoncus mattis rhoncus?
+            </p>
+            <button type="button">Web Plans &#9654;</button>
+          </div>
+
+          <div class="print">
+            <img src="images/print.jpg" alt="Print">
+            <h3>Print</h3>
+            <p>
+              Lorem ipsum dolor sit amet, nulla aliquet enim tortor at auctor
+              urna nunc id cursus. Arcu non odio euismod lacinia. Senectus et
+              netus et malesuada. Mi tempus imperdiet nulla malesuada
+              pellentesque elit eget gravida cum. Quam adipiscing vitae proin
+              sagittis nisl rhoncus mattis rhoncus?
+            </p>
+            <button type="button">Print Plans &#9654;</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section>
+      <div class="ourVision">
+        <div class="image-text">
+          <img src="images/vision.jpg" alt="Our Vision" class="cropped-image">
+        </div>
+        <div class="vision">
+          <h3>Our Vision</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper
+            feugiat nibh sed pulvinar proin. Lectus urna duis convallis
+            convallis tellus id interdum velit laoreet.
+          </p>
+          <button type="button">Learn More &#9654;</button>
+        </div>
+      </div>
+    </section>
+<div class="our-team">
     <h2>Our Team</h2>
-    <container class="team">
-    <img src="images/john.jpg" alt="John Doe" />
-    <h3>John Doe</h3>
-    <h5>CEO and Co-owner</h5>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Semper feugiat nibh
-      sed pulvinar proin. Lectus urna duis convallis convallis tellus id
-      interdum velit laoreet. Cras tincidunt lobortis feugiat vivamus at augue
-      eget arcu dictum. Praesent tristique magna sit amet purus gravida.
-    </p>
-    <img src="images/bob.jpg" alt="Bob Rite" />
-    <h3>Bob Rite</h3>
-    <h5>CFO and Co-owner</h5>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Semper feugiat nibh
-      sed pulvinar proin. Lectus urna duis convallis convallis tellus id
-      interdum velit laoreet. Cras tincidunt lobortis feugiat vivamus at augue
-      eget arcu dictum. Praesent tristique magna sit amet purus gravida.
-    </p>
-  </container>
-    <h2>Contact Us</h2>
-    <container class="contact">
-    <h3>Send us a message</h3>
-    <form>
-      <label for="fname">Full name:</label><br />
-      <input type="text" id="fname" name="fname" /><br />
-      <label for="email">Email:</label><br />
-      <input type="text" id="email" name="email" /><br />
-      <label for="message">Message:</label><br />
-      <input type="text" id="message" name="message" /><br />
-      <input type="submit" value="Send" />
-    </form>
-    <h3>Hours of Operation</h3>
-    <table>
-      <tr>
-        <th>Days</th>
-        <th>Hours</th>
-      </tr>
-      <tr>
-        <td>Monday-Friday</td>
-        <td>9 AM - 6 PM</td>
-      </tr>
-      <tr>
-        <td>Saturday-Sunday</td>
-        <td>Closed</td>
-      </tr>
-    </table>
-    <h3>Location</h3>
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.943899166586!2d-75.75750062437531!3d45.349944723167035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1701133203655!5m2!1sen!2sca"
-      width="600"
-      height="450"
-      style="border: 0"
-      allowfullscreen=""
-      loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade"
-    ></iframe>
-  </container>
+  </div>
+    <div class="team">
+      <img class="john-img" src="images/john.jpg" alt="John Doe">
+      <div class="john-text">
+      <h3>John Doe</h3>
+      <h5>CEO and Co-owner</h5>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Semper feugiat nibh
+        sed pulvinar proin. Lectus urna duis convallis convallis tellus id
+        interdum velit laoreet. Cras tincidunt lobortis feugiat vivamus at augue
+        eget arcu dictum. Praesent tristique magna sit amet purus gravida.
+      </p>
+    </div>
+      <img class="bob-img" src="images/bob.jpg" alt="Bob Rite">
+    <div class="bob-text">
+      <h3>Bob Rite</h3>
+      <h5>CFO and Co-owner</h5>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Semper feugiat nibh
+        sed pulvinar proin. Lectus urna duis convallis convallis tellus id
+        interdum velit laoreet. Cras tincidunt lobortis feugiat vivamus at augue
+        eget arcu dictum. Praesent tristique magna sit amet purus gravida.
+      </p>
+    </div>
+  </div>
+    <h2 class="contact-title">Contact Us</h2>
+    <div class="contact">
+      <div class="message-form">
+      <h3>Send us a message</h3>
+      <form>
+        <div class="input-info">
+        <label for="fname">Full name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="email">Email:</label><br />
+        <input type="text" id="email" name="email"><br>
+          <label for="message">Message:</label>
+          <textarea id="subject" style="height:150px"></textarea><br>
+      </div>
+        <input class="submit-button" type="submit" value="Send">
+      </form>
+    </div>
+      <div class="location-map">
+      <h3>Location</h3>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.943899166586!2d-75.75750062437531!3d45.349944723167035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1701133203655!5m2!1sen!2sca"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+  </div>
+    
+    <div class="table-hours">
+    <h3 class="hours-op">Hours of Operation</h3>
+      <table>
+        <thead>
+        <tr>
+          <th>Days</th>
+          <th>Hours</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Monday-Friday</td>
+          <td>9 AM - 6 PM</td>
+        </tr>
+        <tr>
+          <td>Saturday-Sunday</td>
+          <td>Closed</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+    <footer>
+      &copy; Copyright Three Star Media, 2020
+      <br />
+      All images are taken from Unsplash
+    </footer>
   </body>
-  <footer>
-    &copy; Copyright Three Star Media, 2020
-    <br />
-    All images are taken from Unsplash
-  </footer>
 </html>
